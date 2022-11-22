@@ -1,0 +1,32 @@
+name: tip_calculator
+description: Tip calculator
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.4 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.0.4
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.11.0
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/launcher_icon.png"
+  web:
+    generate: true
+    image_path: "assets/icon/launcher_icon.png"
