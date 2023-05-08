@@ -34,6 +34,7 @@ class MyApp extends StatelessWidget {
       home: const MyHomePage(
         title: 'Tip Calculator',
       ),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
